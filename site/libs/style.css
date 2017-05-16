@@ -1,0 +1,388 @@
+body{
+    height: 5278px;
+    background-image: url(/img/Layer-0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header
+{
+    height: 670px;
+    width: 100%;
+    background-image: url(/img/header_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .slogan
+{
+    margin-top: 20%;
+    height: 50%;
+    color:#fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.home .text
+{
+    margin-top: 10%;
+    color:#fff;
+    text-align: center;
+}
+.content{
+    width: 100%;
+}
+.about .left
+{
+    height: 400px;
+    width: 45%;
+    float: left;
+}
+.about .left .logo
+{
+    width: 235px;
+    height: 229px;
+    background-image: url(/img/about-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: 15%;
+}
+.about .right{
+    height: 400px;
+    width: 55%;
+    float: left;
+}
+.about .right .story
+{
+    height: 70%;
+    width: 100%;
+}
+.h2
+{
+    text-align: center;
+    font-family: 'Times New Roman',serif;
+    font-weight: bold;
+}
+.h4{
+    text-indent: 20px;
+    line-height: 1.5;
+}
+.about .right .buttonplace
+{
+    height: 30%;
+    width: 100%;
+}
+.about-video
+{
+    height: 550px;
+    width: 100%;
+    float: left;
+    background-image: url(/img/about-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video{
+    width: 70%;
+    margin: 0 auto;
+    margin-top:5%;
+}
+ 
+
+.expertise{
+    height: 737px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+    background-image: url(/img/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.expertise .h1,.expertise .h5{
+    text-align: center; 
+}
+.h5{
+    padding-bottom: 5%;
+}
+
+
+.post{
+    height: 220px;
+}
+.post .text{
+    text-indent: 20px;
+}
+.expertise .post .input-group-addon
+{
+    height: 70px;
+}
+.post >p{
+  font-size: 500;
+    overflow: auto;
+}
+.team{
+    height: 712px;
+    width: 100%;
+    float: left;
+    background-image: url(/img/team-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.works
+{
+     height: 755px;
+    width: 100%;
+    float: left;
+}
+.works .form
+{
+    margin-top: 3%;
+    margin: auto;
+}
+.testimonials{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-image: url(/img/testem-backgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacts{
+    height: 654px;
+    width: 100%;
+    float: left;
+    background-image: url(/img/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer
+{
+    height: 300px;
+    width: 100%;
+    float: left;
+    color: #fff;
+    background-image: url(/img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /* цвет фона и рамки навигационного меню */
+    .nav, .container-fluid, .dropdown-menu, .navbar-inverse {
+        background-color: #4d3d73;
+        border-color: #4d3d73;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+            color: #ecf0f1;
+      }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{
+            color: #000;
+      }
+    /* цвет текста, содержащий название сайта или бренда */
+    .navbar-inverse .navbar-brand {
+        color: #ecf0f1;
+    }
+    /* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-inverse .navbar-brand:hover,
+    .navbar-inverse .navbar-brand:focus {
+        color: #ecf0f1;
+    }
+    /* Цвет пунктов навигационного меню */
+    .navbar-default .navbar-nav > li > a {
+        color: #ecf0f1;
+    }
+    /* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #ecf0f1;
+    }
+    /* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-inverse .navbar-nav > .active > a, 
+    .navbar-inverse .navbar-nav > .active > a:hover, 
+    .navbar-inverse .navbar-nav > .active > a:focus {
+        color: #ecf0f1;
+        background-color: #4d3d73;
+    }
+    /* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-inverse .navbar-nav > .open > a, 
+    .navbar-inverse .navbar-nav > .open > a:hover, 
+    .navbar-inverse .navbar-nav > .open > a:focus {
+        color: #ecf0f1;
+        background-color: #4d3d73;
+    }
+    /* Цвет стрелочки (треугольничка) у раскрывающихся пунктов меню */
+    .navbar-inverse .navbar-nav > .dropdown > a .caret {
+        border-top-color: #ecf0f1;
+        border-bottom-color: #ecf0f1;
+    }
+    /* Цвет стрелочки (треугольничка) при поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-inverse .navbar-nav > .dropdown > a:hover .caret,
+    .navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
+        border-top-color: #ecf0f1;
+        border-bottom-color: #ecf0f1;
+    }
+    /* Цвет стрелочки (треугольничка), открывшегося пункта меню */
+    .navbar-inverse .navbar-nav > .open > a .caret, 
+    .navbar-inverse .navbar-nav > .open > a:hover .caret, 
+    .navbar-inverse .navbar-nav > .open > a:focus .caret {
+        border-top-color: #ecf0f1;
+        border-bottom-color: #ecf0f1;
+    }
+    /* CSS стили для мобильных устройств */
+    /* Цвет рамки у кнопки, которая открывает меню */
+    .navbar-inverse .navbar-toggle {
+        border-color: #4d3d73;
+    }
+    /* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #4d3d73;
+    }
+    /* Цвет полосочек в кнопочке, которая открывает меню */
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #ecf0f1;
+    }
+    /* Цвет пунктов меню в раскрывающихся списках */
+    @media (max-width: 767px) {
+        .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+            color: #ecf0f1;
+      }
+    /* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #ecf0f1;
+            background-color: #4d3d73;
+        }
+    }
+.carousel {
+    margin-left: 10%;
+    margin-right: 10%;
+  height: 400px !important;
+  overflow: hidden;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-inner img {
+  left: 50%;
+  max-width: none !important;
+  min-height: 400px;
+  min-width: 100%;
+  position: absolute;
+  top: 200px;
+  transform: translate(-50%,-50%);
+}
+.foot
+{
+    height: 90%;
+    float: left;
+}
+.copyright{
+    text-align: right;
+    height: 10%;;
+}
+.logo .logo-img, .logo .text{
+    height: 135px;
+    
+}
+.social .text{
+    margin-top: 40px;
+    height: 40px;
+}
+.social .news
+{
+    height: 90px;
+}
+.social .socs{
+    height: 100px;
+}
+.foot .adress .text{
+    margin-top: 40px;
+    height: 40px;
+}
+.foot .adress .text2 .input-group{
+    padding-bottom: 20px;
+}
+.socs >span{
+    padding-right: 5px;
+}
+@media only screen and (min-width : 480px) and (max-width: 768px)
+{
+    
+    .video{
+        width: 100%;
+        margin-top: 5%;
+    }
+    fieldset{
+        width:100%;
+    }
+     .story{
+        height: 70%;
+        overflow: scroll;
+    }
+
+    .expertise .sidebar-1,.expertise. sidebar-2{
+        display: none;
+    }
+    .post .text{
+        overflow: hidden;
+    }
+    .logo .logo-img
+    {
+        display: none;
+    }
+    .logo{
+        margin-top: 30px;
+        height: 100%;
+    }
+}
+@media screen  and (max-width : 480px)
+{
+    .about .left{
+        display:none;
+    }
+    .about .right{
+        width: 100%;
+        float: none;
+    }
+    .story{
+        height: 70%;
+        overflow: scroll;
+    }
+    .about .right .buttonplace
+{
+   float:none;
+    width: 100%;
+}
+      .expertise .sidebar-1,.expertise. sidebar-2{
+        display: none;
+    }
+    body{
+        min-width: 320px;
+    }
+    .video{
+        width: 100%;
+        margin-top: 10%;
+    }
+     fieldset{
+        width:100%;
+    }
+    .post .text{
+        
+        overflow: hidden;
+    }
+    .logo .logo-img
+    {
+        display: none;
+    }
+    .logo{
+        margin-top: 30px;
+        height: 100%;
+    }
+    .foot .adress .text{
+    margin-bottom: 50px;
+}
+    .social .text
+    {
+        
+    margin-bottom: 50px;
+    
+}
+}
