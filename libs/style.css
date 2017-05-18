@@ -84,9 +84,7 @@ body{
 }
 .expertise{
     height: 737px;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 100%;
     float: left;
     background-image: url(/img/background1.png);
     background-repeat: no-repeat;
@@ -95,12 +93,19 @@ body{
 .expertise .h1,.expertise .h5{
     text-align: center; 
 }
+ .expertise .sidebar-1,
+    .expertise. sidebar-2,
+.expertise .main{
+        float:left;
+    }
 .h5{
     padding-bottom: 5%;
 }
 .post{
     height: 220px;
+    float: left;
 }
+
 .post .text{
     text-indent: 20px;
 }
@@ -110,7 +115,7 @@ body{
 }
 .post >p{
   font-size: 500;
-    overflow: auto;
+    overflow: hidden;
 }
 .team{
     height: 712px;
@@ -323,6 +328,10 @@ body{
 .socs >span{
     padding-right: 5px;
 }
+ .news .form-inline .form-control
+    {
+        width: 80%;
+    }
 @media only screen and (min-width : 480px) and (max-width: 768px)
 {
     
@@ -338,8 +347,12 @@ body{
         overflow: scroll;
     }
 
-    .expertise .sidebar-1,.expertise. sidebar-2{
+    .expertise .sidebar-1,
+    .expertise .sidebar-2{
         display: none;
+    }
+    .expertise .row{
+        width: 100%;
     }
     .post .text{
         overflow: hidden;
@@ -352,6 +365,9 @@ body{
         margin-top: 30px;
         height: 100%;
     }
+    .footer .adress .text2{
+        font-size: 14px;
+    }
      .contacts .logo
     {
         font-size: 120px;
@@ -360,9 +376,16 @@ body{
     {
         text-align: center;
     }
+     .news 
+    {
+        display: none;
+    }
 }
 @media screen  and (max-width : 480px)
 {
+    .footer .adress .text2{
+        font-size: 12px;
+    }
     .about .left{
         display:none;
     }
@@ -379,7 +402,9 @@ body{
    float:none;
     width: 100%;
 }
-      .expertise .sidebar-1,.expertise. sidebar-2{
+    .expertise .sidebar-1,
+    .expertise .sidebar-2,
+    {
         display: none;
     }
     body{
@@ -408,6 +433,7 @@ body{
     {
         font-size: 100px;
     }
+
     .contacts .row
     {
         text-align: center;
@@ -421,4 +447,8 @@ body{
     margin-bottom: 50px;
     
     }
+    .news 
+    {
+        display: none;
+   
 }
